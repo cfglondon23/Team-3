@@ -1,7 +1,7 @@
 #get the API key
 import requests, json
 
-with open('keys.json') as f:
+with open('static/keys.json') as f:
     keys = json.load(f)
 api_key = keys['open_weather']['api_key'] 
 

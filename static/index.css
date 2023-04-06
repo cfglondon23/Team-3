@@ -1,0 +1,343 @@
+.image-1-icon {
+  position: absolute;
+  top: 34px;
+  left: 19px;
+  width: 63px;
+  height: 221px;
+  object-fit: cover;
+}
+.smart-london {
+  margin: 0;
+  font-size: 40px;
+}
+.blank-line {
+  margin: 0;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-roboto);
+}
+.making {
+  margin: 0;
+  text-align: center;
+}
+.making:hover {
+  background-color: black;
+}
+.my-profile,
+.smart-london-making-container {
+  position: absolute;
+  top: 56px;
+  left: 91px;
+  display: inline-block;
+  width: 291px;
+  height: 234px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-pt-sans-caption);
+}
+.my-profile {
+  top: 121px;
+  left: 584px;
+  font-size: var(--font-size-5xl);
+  text-align: center;
+  width: 381px;
+  height: 33px;
+}
+.desktop-3-child {
+  position: absolute;
+  top: 179px;
+  left: 707px;
+  width: 135px;
+  height: 132px;
+  object-fit: cover;
+}
+.house-solid-1-icon {
+  position: absolute;
+  top: 449px;
+  left: 79px;
+  width: 23.63px;
+  height: 21px;
+  overflow: hidden;
+}
+.home {
+  position: absolute;
+  top: 451px;
+  left: 117px;
+  font-size: 18.67px;
+  display: inline-block;
+  width: 119.78px;
+  height: 17.89px;
+}
+.bell-solid-1-icon {
+  position: absolute;
+  top: 542px;
+  left: 79px;
+  width: 23.24px;
+  height: 26.56px;
+  overflow: hidden;
+}
+.notifications {
+  position: absolute;
+  top: 543px;
+  left: 117px;
+  font-size: 17.43px;
+  display: inline-block;
+  width: 111.86px;
+  height: 16.71px;
+}
+.desktop-3-item {
+  position: absolute;
+  top: 526px;
+  left: 227px;
+  width: 20px;
+  height: 20px;
+}
+.edit-profile,
+.settings {
+  position: absolute;
+  top: 417px;
+  left: 741px;
+  font-size: 14px;
+  display: inline-block;
+  width: 112.28px;
+  height: 16.77px;
+}
+.settings {
+  top: 634px;
+  left: 117px;
+  font-size: 17.5px;
+}
+.gear-solid-1-1,
+.gear-solid-1-2 {
+  position: absolute;
+  top: 417px;
+  left: 705px;
+  width: 12px;
+  height: 13px;
+  overflow: hidden;
+}
+.gear-solid-1-2 {
+  top: 634px;
+  left: 77px;
+  width: 24.79px;
+  height: 24.79px;
+}
+.mayor-of-london,
+.sadiq-khan {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+}
+.sadiq-khan {
+  top: 326px;
+  left: 669px;
+  font-size: var(--font-size-5xl);
+  width: 211px;
+  height: 30px;
+}
+.mayor-of-london {
+  top: 356px;
+  left: 678px;
+  font-size: 15px;
+  color: var(--color-gray);
+  width: 202px;
+  height: 51px;
+}
+.image-4-icon {
+  position: absolute;
+  top: 584px;
+  left: 645px;
+  width: 287px;
+  height: 191px;
+  object-fit: cover;
+}
+.desktop-3-inner,
+.star-icon {
+  position: absolute;
+  top: 594px;
+  left: 673.69px;
+  width: 34.63px;
+  height: 31.52px;
+}
+.star-icon {
+  left: 646.69px;
+}
+.desktop-3-child1,
+.desktop-3-child2,
+.desktop-3-child3 {
+  position: absolute;
+  top: 502px;
+  left: 627.69px;
+  width: 34.63px;
+  height: 31.52px;
+}
+.desktop-3-child2,
+.desktop-3-child3 {
+  left: 737.69px;
+}
+.desktop-3-child3 {
+  left: 848.69px;
+}
+.desktop-3-child4,
+.desktop-3-child5,
+.desktop-3-child6 {
+  position: absolute;
+  top: 594px;
+  left: 995.69px;
+  width: 34.63px;
+  height: 31.52px;
+}
+.desktop-3-child5,
+.desktop-3-child6 {
+  top: 502px;
+  left: 418.69px;
+}
+.desktop-3-child6 {
+  left: 517.69px;
+}
+.user-group-solid-1-icon {
+  position: absolute;
+  top: 446px;
+  left: 698px;
+  width: 27px;
+  height: 21.6px;
+  overflow: hidden;
+}
+.followers,
+.million {
+  position: absolute;
+  top: 446px;
+  left: 741px;
+  display: inline-block;
+  width: 154px;
+  height: 22px;
+}
+.million {
+  top: 472px;
+  left: 742px;
+  font-size: 13px;
+  color: var(--color-gray);
+}
+.image-5-icon,
+.image-6-icon {
+  position: absolute;
+  top: 584px;
+  left: 968px;
+  width: 292px;
+  height: 191px;
+  object-fit: cover;
+}
+.image-6-icon {
+  top: 799px;
+  left: 326px;
+  width: 280px;
+  height: 187px;
+}
+.connectivity,
+.energy {
+  position: absolute;
+  top: 529px;
+  left: 382px;
+  display: inline-block;
+  width: 154px;
+  height: 22px;
+}
+.energy {
+  top: 528px;
+  left: 515px;
+}
+.health-and-safety-container,
+.materials,
+.mobility,
+.placemaking,
+.water {
+  position: absolute;
+  top: 533px;
+  left: 725px;
+  display: inline-block;
+  width: 154px;
+  height: 22px;
+  text-align: center;
+}
+.health-and-safety-container,
+.mobility,
+.placemaking,
+.water {
+  top: 534px;
+  left: 917px;
+}
+.health-and-safety-container,
+.mobility,
+.water {
+  top: 533px;
+  left: 840px;
+}
+.health-and-safety-container,
+.water {
+  top: 536px;
+  left: 1051px;
+}
+.health-and-safety-container {
+  top: 533px;
+  left: 606px;
+}
+.desktop-3-child7,
+.desktop-3-child8,
+.desktop-3-child9 {
+  position: absolute;
+  top: 594px;
+  left: 975.69px;
+  width: 34.63px;
+  height: 31.52px;
+}
+.desktop-3-child8,
+.desktop-3-child9 {
+  top: 806px;
+  left: 331.69px;
+}
+.desktop-3-child9 {
+  top: 607px;
+  left: 341.69px;
+}
+.desktop-3-child10,
+.desktop-3-child11,
+.image-7-icon {
+  position: absolute;
+  top: 502px;
+  left: 947.69px;
+  width: 34.63px;
+  height: 31.52px;
+}
+.desktop-3-child11,
+.image-7-icon {
+  top: 503px;
+  left: 1047.69px;
+}
+.image-7-icon {
+  top: 802px;
+  left: 650px;
+  width: 287px;
+  height: 184px;
+  object-fit: cover;
+}
+.desktop-3-child12,
+.desktop-3-child13 {
+  position: absolute;
+  top: 806px;
+  left: 651.69px;
+  width: 34.63px;
+  height: 31.52px;
+}
+.desktop-3-child13 {
+  top: 819px;
+  left: 1110.69px;
+}
+.desktop-3 {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
