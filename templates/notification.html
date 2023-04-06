@@ -63,13 +63,13 @@
       <div class="london-solar-opportunities-container">
         <p class="making">
           <b class="london-solar-opportunities"
-            >London solar opportunities map</b
+            >Check out this interative map of waste in London!</b
           ><span class="span"> </span>
         </p>
-        <p class="londoners-this-map">
+        <!-- <p class="londoners-this-map">
           Londoners, this map enables you to estimate the potential for both.
         
-        </p>
+        </p> -->
       </div>
       <div class="decentralised-energy-map-container">
         <p class="making"><b>Decentralised energy map</b></p>
@@ -79,16 +79,15 @@
         </p>
       </div>
       <div class="private-rent-maps-container">
-        <p class="making"><b>Private rent maps </b></p>
+        <p class="making"><b>Terrific Trafic in London </b></p>
         <p class="londoners-this-map">
-          Londoners, search average monthly private sector rents for different
-          type
+          View in the interative map showing how much the level of traffic has worsened.
         </p>
       </div>
-      <img class="image-12-icon" alt="" src="../static/public/image-12@2x.png" /><img
+      <img class="image-12-icon" alt="" src="../static/public/wastemap.png" /><img
         class="image-13-icon"
         alt=""
-        src="../static/public/image-13@2x.png"
+        src="../static/public/road.png"
       /><img class="image-19-icon" alt="" src="../static/public/image-19@2x.png" />
     </div>
   </body>
@@ -122,5 +121,24 @@ for (let i = 0; i < elements.length; i++) {
     window.location.href = "/leaderboards";
   }
 }
+
+elements = document.getElementsByClassName("image-12-icon");
+
+for (let i = 0; i < elements.length; i++) {
+  elements[i].onclick = function() {
+    // set window location to "/"
+    window.location.href = "/waste";
+  }
+}
+
+elements = document.getElementsByClassName("image-13-icon");
+
+for (let i = 0; i < elements.length; i++) {
+  elements[i].onclick = function() {
+    // set window location to "/"
+    window.location.href = "/traffic";
+  }
+}
+
 </script>
 </html>

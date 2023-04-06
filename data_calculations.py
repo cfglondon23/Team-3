@@ -1,16 +1,16 @@
-#get the API key
-import requests, json
+import indexcalc.airquality
+import indexcalc.connectivity
+import indexcalc.energy
+import indexcalc.green
+import indexcalc.traffic
+import indexcalc.water
 
-with open('static/keys.json') as f:
-    keys = json.load(f)
-api_key = keys['open_weather']['api_key'] 
-
-#fill the latitude and longtitude information of London into the API call
-url = f'http://api.openweathermap.org/data/2.5/air_pollution?lat=51.5002&lon=-000.1262&appid={api_key}'
-r = requests.get(url)
-
-#get current air quality index
-parsed_data = json.loads(r.text)
-# print(parsed_data)
-air_quality_index = parsed_data['list'][0]['main']['aqi']
-# print(air_quality_index)
+def calculate_index():
+    aqi = indexcalc.airquality.air_quality_index
+    ci = indexcalc.connectivity.connectivity_index
+    ei = indexcalc.energy.energy_usage_index
+    gi = indexcalc.green.greenery_index
+    ti = indexcalc.traffic.traffic_index
+    wi = indexcalc.water.water_index
+    print((aqi + ci + ei + gi + ti + wi)/6)
+    # return air_quality_index, connectivity_index, energy_index, green_index, traffic_index, water_index

@@ -32,6 +32,14 @@ def login():
             return "Invalid credentials"
     return render_template('login.html', error = error)
 
+@app.route('/traffic')
+def traffic():
+    return render_template('traffic.html')
+
+@app.route('/waste')
+def waste():
+    return render_template('waste.html')
+
 @app.route('/workerfeed')
 def workerfeed():
     error = None

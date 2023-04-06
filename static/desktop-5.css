@@ -171,10 +171,7 @@
   font-weight: 300;
 }
 .londoners-this-map {
-  position: absolute;
   font-family: var(--font-roboto);
-  top: 0px;
-  left: 0px;
 }
 .london-solar-opportunities-container {
   position: absolute;

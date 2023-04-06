@@ -12,8 +12,8 @@ df_melt = df.melt(id_vars='date', value_vars=['Cars','Motorbikes', 'Buses', 'Tru
 fig = px.line(df_melt, x='date' , y='value' , color='variable')
 fig.update_xaxes(rangeslider_visible=True)
 
-#change to html file
-pyo.plot(fig, filename='traffic.html')
-iframe_html = '<iframe src="https://your-website.com/traffic.html" width="600" height="400"></iframe>'
+# change to html file
+# pyo.plot(fig, filename='traffic.html')
+# iframe_html = '<iframe src="https://your-website.com/traffic.html" width="600" height="400"></iframe>'
 
 traffic_index = 5.63
