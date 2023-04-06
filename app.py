@@ -61,8 +61,9 @@ dic = {
 @app.route('/city/<string:cityname>')
 def city(cityname):
     # citydata = air_pollution.parsed_data['list'][0]['main']['aqi']
+    data = dic[cityname] if cityname in dic else []
     error = None
-    return render_template('city.html', name = cityname, pictures = dic[cityname], error = error)
+    return render_template('city.html', name = cityname, pictures = data, error = error)
 
 if __name__ == "__main__":
     app.run(debug=True)
