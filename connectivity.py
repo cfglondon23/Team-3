@@ -1,0 +1,1 @@
+connectivity_index = 9.56
