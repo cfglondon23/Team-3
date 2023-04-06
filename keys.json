@@ -1,4 +1,6 @@
-{"open_weather": {
-  "api_key": ""
-  }
+{
+  "open_weather":
+    {
+      "api_key": ""
+    }
 }

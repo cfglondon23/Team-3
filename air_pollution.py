@@ -1,6 +1,5 @@
 #get the API key
-import requests
-import json
+import requests, json
 
 with open('keys.json') as f:
     keys = json.load(f)
@@ -12,4 +11,6 @@ r = requests.get(url)
 
 #get current air quality index
 parsed_data = json.loads(r.text)
+# print(parsed_data)
 air_quality_index = parsed_data['list'][0]['main']['aqi']
+# print(air_quality_index)

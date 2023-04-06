@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Blog</title>
+    <title>City</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" rel="stylesheet">
+    <style>
+      .gallery-item {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        width: 200px;
+        text-align: center;
+      }
+      .gallery-item img {
+        max-width: 100%;
+        height: auto;
+      }
+      .caption {
+        margin-top: 5px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .account {
+        font-size: 12px;
+        color: gray;
+      }
+    </style>
   </head>
   <body>
-    <header>
-      <h1>My {{name}}</h1>
-    </header>
-    <aside>
-      <div class="search-bar">
-        <input type="text" placeholder="Search">
-        <button type="submit">Go</button>
+    <section class="section">
+      <div class="container">
+        <h1> {{name}} </h1>
+        <h2> {{ citydata }}</h2>
+        <div class="gallery">
+          {% for post in pictures %}
+          <div class="gallery-item">
+            <figure class="image is-4by3">
+              <img src="{{post['link']}}" alt="image 1">
+            </figure>
+            <div class="caption">{{post["caption"]}}</div>
+            <div class="account">{{post["account"]}}</div>
+          </div>
+          {% endfor %}
+        </div>
       </div>
-      <div class="leaderboard">
-        <h2>Leaderboard</h2>
-        <ol>
-          <li>Leader 1</li>
-          <li>Leader 2</li>
-          <li>Leader 3</li>
-        </ol>
-      </div>
-    </aside>
-    <main>
-      <div class="posts">
-        <h2>Latest Posts</h2>
-        <article>
-          <h3>Post Title 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula velit et turpis scelerisque, ac molestie eros aliquam. Donec euismod, est a lacinia euismod, tellus metus posuere nunc, sit amet venenatis felis sapien vel lacus.</p>
-        </article>
-        <article>
-          <h3>Post Title 2</h3>
-          <p>Suspendisse consectetur libero vitae augue facilisis, non tristique urna fermentum. Donec vel augue eget mauris egestas aliquet. Maecenas dapibus augue non ante elementum iaculis. In suscipit nunc sed ultricies malesuada.</p>
-        </article>
-        <article>
-          <h3>Post Title 3</h3>
-          <p>Nunc sit amet lorem nec turpis fringilla suscipit ac vel neque. Sed et tortor in nulla dapibus varius a sed odio. Duis pharetra diam non diam sollicitudin, non lobortis velit tristique. Fusce vitae libero a mi sodales vestibulum.</p>
-        </article>
-      </div>
-    </main>
+    </section>
   </body>
 </html>
