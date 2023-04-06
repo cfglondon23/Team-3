@@ -9,11 +9,23 @@ body {
   --font-pt-sans-caption: "PT Sans Caption";
 
   /* font sizes */
-  --font-size-lg: 18px;
-  --font-size-5xl: 24px;
   --font-size-xl: 20px;
+  --font-size-17xl: 36px;
+  --font-size-sm: 14px;
+  --font-size-mid-5: 17.5px;
+  --font-size-mid-4: 17.4px;
+  --font-size-lg-7: 18.7px;
+  --font-size-21xl: 40px;
+  --font-size-base: 16px;
+  --font-size-lgi-7: 19.7px;
+  --font-size-lg: 18px;
+  --font-size-smi: 13px;
+  --font-size-mini: 15px;
+  --font-size-5xl: 24px;
 
   /* Colors */
+  --color-white: #fff;
   --color-black: #000;
+  --color-mediumaquamarine: #6ccd9e;
   --color-gray: rgba(0, 0, 0, 0.5);
 }

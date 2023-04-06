@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="../static/global.css" />
+    <link rel="stylesheet" href="../static/desktop-5.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT Sans Caption:wght@400;700&display=swap"
+    />
+  </head> 
+  <body>
+    <div class="desktop-5">
+      <div class="desktop-5-child"></div>
+      <b class="profile">Profile</b
+      ><img class="image-1-icon" alt="" src="../static/public/image-1@2x.png" />
+      <div class="smart-london-making-container">
+        <p class="smart-london"><b>SMART LONDON</b></p>
+        <p class="making">Making</p>
+        <p class="making">London</p>
+        <p class="making">Smarter</p>
+        <p class="making">Together</p>
+      </div>
+      <img
+        class="house-solid-1-icon"
+        alt=""
+        src="../static/public/housesolid-1.svg"
+      /><b class="home">Home</b
+      ><img class="bell-solid-1-icon" alt="" src="../static/public/bellsolid-1.svg" /><b
+        class="notifications"
+        >Notifications</b
+      ><b class="settings">Leaderboard</b
+      ><img
+        class="gear-solid-1-2"
+        alt=""
+        src="../static/public/star.png"
+      /><img
+        class="user-group-solid-3-icon"
+        alt=""
+        src="../static/public/usergroupsolid-3.svg"
+      /><img
+        class="desktop-5-item"
+        alt=""
+        src="../static/public/ellipse-1@2x.png"
+      /><img
+        class="desktop-5-inner"
+        alt=""
+        src="../static/public/ellipse-1@2x.png"
+      /><img class="ellipse-icon" alt="" src="../static/public/ellipse-1@2x.png" /><b
+        class="smart-london1"
+        >@smart_london</b
+      >
+      <div class="mn-ago">3 mn ago</div>
+      <b class="smart-london2">@smart_london</b
+      ><b class="smart-london3">@smart_london</b
+      ><img class="line-icon" alt="" src="../static/public/line-7.svg" />
+      <div class="notifications1">Notifications</div>
+      <div class="london-solar-opportunities-container">
+        <p class="making">
+          <b class="london-solar-opportunities"
+            >London solar opportunities map</b
+          ><span class="span"> </span>
+        </p>
+        <p class="londoners-this-map">
+          Londoners, this map enables you to estimate the potential for both.
+        
+        </p>
+      </div>
+      <div class="decentralised-energy-map-container">
+        <p class="making"><b>Decentralised energy map</b></p>
+        <p class="londoners-this-map">
+          Londoners, this heat map shows where there is potential top create a
+          decentralised energy network across London, cutting carbon emissions.
+        </p>
+      </div>
+      <div class="private-rent-maps-container">
+        <p class="making"><b>Private rent maps </b></p>
+        <p class="londoners-this-map">
+          Londoners, search average monthly private sector rents for different
+          type
+        </p>
+      </div>
+      <img class="image-12-icon" alt="" src="../static/public/image-12@2x.png" /><img
+        class="image-13-icon"
+        alt=""
+        src="../static/public/image-13@2x.png"
+      /><img class="image-19-icon" alt="" src="../static/public/image-19@2x.png" />
+    </div>
+  </body>
+<script>
+elements = document.getElementsByClassName("home");
+
+// loop through the elements and add an onclick event
+for (let i = 0; i < elements.length; i++) {
+  elements[i].onclick = function() {
+    // set window location to "/"
+    window.location.href = "/workerfeed";
+  }
+}
+
+elements = document.getElementsByClassName("profile");
+
+//  loop through the elements and add an onclick event
+for (let i = 0; i < elements.length; i++) {
+  elements[i].onclick = function() {
+    // set window location to "/"
+    window.location.href = "/user/peter";
+  }
+}
+
+elements = document.getElementsByClassName("settings");
+
+//  loop through the elements and add an onclick event
+for (let i = 0; i < elements.length; i++) {
+  elements[i].onclick = function() {
+    // set window location to "/"
+    window.location.href = "/leaderboards";
+  }
+}
+</script>
+</html>

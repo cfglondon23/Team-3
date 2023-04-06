@@ -1,0 +1,233 @@
+.desktop-5-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #66ddaa;
+  box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.25);
+  width: 273px;
+  height: 1508px;
+}
+.profile {
+  position: absolute;
+  top: 369px;
+  left: 91px;
+  font-size: 18.67px;
+  display: inline-block;
+  width: 119.78px;
+  height: 17.89px;
+}
+.image-1-icon {
+  position: absolute;
+  top: 34px;
+  left: 19px;
+  width: 63px;
+  height: 221px;
+  object-fit: cover;
+}
+.smart-london {
+  margin: 0;
+  font-size: var(--font-size-21xl);
+}
+.making {
+  margin: 0;
+}
+.smart-london-making-container {
+  position: absolute;
+  top: 56px;
+  left: 91px;
+  display: inline-block;
+  width: 291px;
+  height: 234px;
+  font-family: var(--font-pt-sans-caption);
+}
+.house-solid-1-icon {
+  position: absolute;
+  top: 448px;
+  left: 58px;
+  width: 23.63px;
+  height: 21px;
+  overflow: hidden;
+}
+.home {
+  position: absolute;
+  top: 451px;
+  left: 89px;
+  font-size: 18.67px;
+  display: inline-block;
+  width: 119.78px;
+  height: 17.89px;
+}
+.bell-solid-1-icon {
+  position: absolute;
+  top: 531px;
+  left: 58px;
+  width: 23.24px;
+  height: 26.56px;
+  overflow: hidden;
+}
+.notifications,
+.settings {
+  position: absolute;
+  left: 89px;
+  display: inline-block;
+}
+.notifications {
+  top: 543px;
+  font-size: 17.43px;
+  width: 111.86px;
+  height: 16.71px;
+}
+.settings {
+  top: 625px;
+  font-size: var(--font-size-mid-5);
+  width: 112.28px;
+  height: 16.77px;
+}
+.gear-solid-1-2,
+.user-group-solid-3-icon {
+  position: absolute;
+  top: 617px;
+  left: 56px;
+  width: 24.79px;
+  height: 24.79px;
+  overflow: hidden;
+}
+.user-group-solid-3-icon {
+  top: 364px;
+  left: 53px;
+  width: 27px;
+  height: 21.6px;
+}
+.desktop-5-inner,
+.desktop-5-item,
+.ellipse-icon {
+  position: absolute;
+  top: 138px;
+  left: 433px;
+  width: 43px;
+  height: 45px;
+  object-fit: cover;
+}
+.desktop-5-inner,
+.ellipse-icon {
+  top: 543px;
+  left: 430px;
+}
+.ellipse-icon {
+  top: 910px;
+  left: 433px;
+}
+.smart-london1 {
+  top: 156px;
+  left: 479px;
+}
+.mn-ago,
+.smart-london1,
+.smart-london2,
+.smart-london3 {
+  position: absolute;
+  font-size: var(--font-size-sm);
+  display: inline-block;
+  width: 112.28px;
+  height: 16.77px;
+}
+.mn-ago {
+  top: 156px;
+  left: 946px;
+  font-weight: 300;
+}
+.smart-london2,
+.smart-london3 {
+  top: 562px;
+  left: 479px;
+}
+.smart-london3 {
+  top: 925px;
+}
+.line-icon,
+.notifications1 {
+  position: absolute;
+  top: 105px;
+  left: 441px;
+  width: 542px;
+  height: 23px;
+}
+.notifications1 {
+  top: 56px;
+  left: 437px;
+  font-size: var(--font-size-17xl);
+  font-weight: 600;
+  display: inline-block;
+  width: 223px;
+  height: 46px;
+}
+.london-solar-opportunities {
+  position: absolute;
+  font-family: var(--font-roboto);
+  top: 0px;
+  left: 0px;
+}
+.span {
+  font-weight: 300;
+}
+.londoners-this-map {
+  position: absolute;
+  font-family: var(--font-roboto);
+  top: 0px;
+  left: 0px;
+}
+.london-solar-opportunities-container {
+  position: absolute;
+  top: 430px;
+  left: 434px;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 583px;
+  height: 46px;
+}
+.decentralised-energy-map-container,
+.private-rent-maps-container {
+  position: absolute;
+  top: 1313px;
+  left: 437px;
+  display: inline-block;
+  width: 583px;
+  height: 46px;
+}
+.private-rent-maps-container {
+  top: 814px;
+  height: 84px;
+}
+.image-12-icon,
+.image-13-icon,
+.image-19-icon {
+  position: absolute;
+  top: 199px;
+  left: 437px;
+  width: 375px;
+  height: 225px;
+  object-fit: cover;
+}
+.image-13-icon,
+.image-19-icon {
+  top: 592px;
+  width: 474px;
+  height: 209px;
+}
+.image-19-icon {
+  top: 970px;
+  left: 440px;
+  width: 438px;
+  height: 327px;
+}
+.desktop-5 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1483px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}

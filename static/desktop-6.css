@@ -1,0 +1,434 @@
+.desktop-6-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #66ddaa;
+  box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.25);
+  width: 272px;
+  height: 1024px;
+}
+.user-group-solid-2-icon {
+  position: absolute;
+  top: 370px;
+  left: 55px;
+  width: 27px;
+  height: 21.6px;
+  overflow: hidden;
+}
+.image-1-icon2 {
+  position: absolute;
+  top: 34px;
+  left: 19px;
+  width: 63px;
+  height: 221px;
+  object-fit: cover;
+}
+.smart-london5 {
+  margin: 0;
+  font-size: var(--font-size-21xl);
+}
+.my-profile,
+.smart-london-making-container2 {
+  position: absolute;
+  top: 56px;
+  left: 91px;
+  display: inline-block;
+  width: 291px;
+  height: 234px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-pt-sans-caption);
+}
+.my-profile {
+  top: 121px;
+  left: 584px;
+  font-size: var(--font-size-5xl);
+  text-align: center;
+  width: 381px;
+  height: 33px;
+}
+.desktop-6-item {
+  position: absolute;
+  top: 179px;
+  left: 707px;
+  width: 135px;
+  height: 132px;
+  object-fit: cover;
+}
+.house-solid-1-icon2 {
+  position: absolute;
+  top: 448px;
+  left: 58px;
+  width: 23.63px;
+  height: 21px;
+  overflow: hidden;
+}
+.home2,
+.profile2 {
+  position: absolute;
+  top: 451px;
+  left: 89px;
+  font-size: 18.67px;
+  display: inline-block;
+  width: 119.78px;
+  height: 17.89px;
+}
+.profile2 {
+  top: 375px;
+  left: 95px;
+}
+.bell-solid-1-icon2 {
+  position: absolute;
+  top: 531px;
+  left: 58px;
+  width: 23.24px;
+  height: 26.56px;
+  overflow: hidden;
+}
+.notifications3 {
+  position: absolute;
+  top: 543px;
+  left: 89px;
+  font-size: 17.43px;
+  display: inline-block;
+  width: 111.86px;
+  height: 16.71px;
+}
+.desktop-6-inner {
+  position: absolute;
+  top: 523px;
+  left: 191px;
+  width: 20px;
+  height: 20px;
+}
+.edit-profile,
+.settings2 {
+  position: absolute;
+  top: 417px;
+  left: 741px;
+  font-size: var(--font-size-sm);
+  display: inline-block;
+  width: 112.28px;
+  height: 16.77px;
+}
+.settings2 {
+  top: 625px;
+  left: 89px;
+  font-size: var(--font-size-mid-5);
+}
+.gear-solid-1-1,
+.gear-solid-1-22 {
+  position: absolute;
+  top: 417px;
+  left: 705px;
+  width: 12px;
+  height: 13px;
+  overflow: hidden;
+}
+.gear-solid-1-22 {
+  top: 617px;
+  left: 56px;
+  width: 24.79px;
+  height: 24.79px;
+}
+.peter-smith1,
+.trader-at-jp {
+  position: absolute;
+  top: 326px;
+  left: 669px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  text-align: center;
+  width: 211px;
+  height: 30px;
+}
+.trader-at-jp {
+  top: 356px;
+  left: 678px;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray);
+  width: 202px;
+  height: 51px;
+}
+.desktop-6-child1,
+.desktop-6-child2 {
+  position: absolute;
+  top: 502px;
+  left: 627.69px;
+  width: 34.63px;
+  height: 31.52px;
+}
+.desktop-6-child2 {
+  left: 749.69px;
+}
+.desktop-6-child3,
+.desktop-6-child4,
+.desktop-6-child5 {
+  position: absolute;
+  top: 501px;
+  left: 842.69px;
+  width: 34.63px;
+  height: 31.52px;
+}
+.desktop-6-child4,
+.desktop-6-child5 {
+  top: 502px;
+  left: 418.69px;
+}
+.desktop-6-child5 {
+  left: 517.69px;
+}
+.user-group-solid-1-icon {
+  position: absolute;
+  top: 446px;
+  left: 698px;
+  width: 27px;
+  height: 21.6px;
+  overflow: hidden;
+}
+.div,
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.followers {
+  position: absolute;
+  top: 446px;
+  left: 741px;
+  display: inline-block;
+  width: 154px;
+  height: 22px;
+}
+.div,
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7 {
+  top: 472px;
+  left: 742px;
+  font-size: var(--font-size-smi);
+  color: var(--color-gray);
+}
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7 {
+  top: 557px;
+  left: 430px;
+}
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7 {
+  top: 556px;
+  left: 530px;
+}
+.div3,
+.div4,
+.div5,
+.div6,
+.div7 {
+  top: 555px;
+  left: 640px;
+}
+.div4,
+.div5,
+.div6,
+.div7 {
+  left: 763px;
+}
+.div5,
+.div6,
+.div7 {
+  left: 853px;
+}
+.div6,
+.div7 {
+  top: 556px;
+  left: 958px;
+}
+.div7 {
+  top: 557px;
+  left: 1071px;
+}
+.connectivity,
+.energy,
+.materials,
+.mobility,
+.placemaking {
+  position: absolute;
+  top: 534px;
+  left: 382px;
+  display: inline-block;
+  width: 154px;
+  height: 22px;
+}
+.energy,
+.materials,
+.mobility,
+.placemaking {
+  left: 515px;
+}
+.materials,
+.mobility,
+.placemaking {
+  top: 533px;
+  left: 732px;
+}
+.mobility,
+.placemaking {
+  top: 534px;
+  left: 917px;
+}
+.mobility {
+  top: 533px;
+  left: 830px;
+}
+.blank-line {
+  margin: 0;
+}
+.healthsafety,
+.water {
+  position: absolute;
+  top: 536px;
+  left: 1050px;
+  display: inline-block;
+  width: 154px;
+  height: 22px;
+}
+.healthsafety {
+  top: 534px;
+  left: 587px;
+}
+.desktop-6-child6,
+.desktop-6-child7,
+.rectangle-div {
+  position: absolute;
+  top: 502px;
+  left: 947.69px;
+  width: 34.63px;
+  height: 31.52px;
+}
+.desktop-6-child7,
+.rectangle-div {
+  top: 503px;
+  left: 1057.69px;
+}
+.rectangle-div {
+  top: 103px;
+  left: 1095px;
+  background-color: #66CDAA;
+  width: 163.98px;
+  height: 36.08px;
+}
+.make-a-post {
+  position: absolute;
+  top: 111px;
+  left: 1123px;
+  font-size: 19.68px;
+  font-weight: 600;
+  display: inline-block;
+  width: 150.86px;
+  height: 20.5px;
+}
+.london1-1-icon {
+  position: absolute;
+  top: 800px;
+  left: 388px;
+  width: 281px;
+  height: 198px;
+  object-fit: cover;
+}
+.desktop-6-child8,
+.image-14-icon {
+  position: absolute;
+  top: 811px;
+  left: 390.69px;
+  width: 34.63px;
+  height: 31.52px;
+}
+.image-14-icon {
+  top: 592px;
+  left: 390px;
+  width: 279px;
+  height: 191px;
+  object-fit: cover;
+}
+.desktop-6-child9,
+.image-15-icon {
+  position: absolute;
+  top: 599px;
+  left: 390.69px;
+  width: 34.63px;
+  height: 31.52px;
+}
+.image-15-icon {
+  top: 594px;
+  left: 691px;
+  width: 274px;
+  height: 189px;
+  object-fit: cover;
+}
+.desktop-6-child10,
+.image-16-icon {
+  position: absolute;
+  top: 599px;
+  left: 688.69px;
+  width: 34.63px;
+  height: 31.52px;
+}
+.image-16-icon {
+  top: 804px;
+  left: 691px;
+  width: 274px;
+  height: 189px;
+  object-fit: cover;
+}
+.desktop-6-child11 {
+  position: absolute;
+  top: 811px;
+  left: 693.69px;
+  width: 34.63px;
+  height: 31.52px;
+}
+.image-17-icon,
+.image-18-icon {
+  position: absolute;
+  top: 594px;
+  left: 994px;
+  width: 280px;
+  height: 189px;
+  object-fit: cover;
+}
+.image-18-icon {
+  top: 811px;
+  height: 182px;
+}
+.desktop-6-child12 {
+  position: absolute;
+  top: 821px;
+  left: 1003.69px;
+  width: 34.63px;
+  height: 31.52px;
+}
+.desktop-6 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}

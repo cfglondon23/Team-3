@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Leaderboard UI Design</title>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../static/leaderboard.css">
+</head>
+<body>
+	<section class="main-content">
+		<div class="container">
+			<h1>Leaderboard</h1>
+			<br>
+			<br>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="leaderboard-card">
+						<div class="leaderboard-card__top">
+							<h3 class="text-center">9.2</h3>
+						</div>
+						<div class="leaderboard-card__body">
+							<div class="text-center">
+								<img src="../static/images/nyc.jpg" class="circle-img mb-2" alt="User Img">
+								<h5 class="mb-0">New York City</h5>
+								<p class="text-muted mb-0">@newyorkcity</p>
+								<hr>
+								<div class="d-flex justify-content-between align-items-center">
+									<span><i class="fa fa-map-marker"></i> United States</span>
+									<button class="btn btn-outline-success btn-sm">Congratulate</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="leaderboard-card leaderboard-card--first">
+						<div class="leaderboard-card__top">
+							<h3 class="text-center">9.5</h3>
+						</div>
+						<div class="leaderboard-card__body">
+							<div class="text-center">
+								<img src="../static/images/ben.jpg" class="circle-img mb-2" alt="User Img">
+								<h5 class="mb-0">London</h5>
+								<p class="text-muted mb-0">@london</p>
+								<hr>
+								<div class="d-flex justify-content-between align-items-center">
+									<span><i class="fa fa-map-marker"></i> United Kingdom</span>
+									<button class="btn btn-outline-success btn-sm">Congratulate</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="leaderboard-card">
+						<div class="leaderboard-card__top">
+							<h3 class="text-center">9.1</h3>
+						</div>
+						<div class="leaderboard-card__body">
+							<div class="text-center">
+								<img src="../static/images/sg.jpg" class="circle-img mb-2" alt="User Img">
+								<h5 class="mb-0">Singapore</h5>
+								<p class="text-muted mb-0">@singapore</p>
+								<hr>
+								<div class="d-flex justify-content-between align-items-center">
+									<span><i class="fa fa-map-marker"></i> Singapore</span>
+									<button class="btn btn-outline-success btn-sm">Congratulate</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<h4>Honourable Mentions</h4>
+
+			<table class="table">
+				<thead>
+					<tr>
+						<th>User</th>
+						<th>Index</th>
+						<th>Location</th>
+						<th>Email</th>
+						<th>Congratulate</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<div class="d-flex align-items-center">
+								<img src="../static/images/zurich.avif" class="circle-img circle-img--small mr-2" alt="User Img">
+								<div class="user-info__basic">
+									<h5 class="mb-0">Zurich</h5>
+									<p class="text-muted mb-0">@zurich</p>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="d-flex align-items-baseline">
+								<h4 class="mr-1">9.0</h4><small style="color: green"><i class="fa fa-arrow-up"></i> 0.2</small>
+							</div>
+						</td>
+						<td>Switzerland</td>
+						<td>media@switzerland.com</td>
+						<td>
+							<button class="btn btn-success btn-sm">Congratulate</button>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="d-flex align-items-center">
+								<img src="../static/images/hanoi.jpg" class="circle-img circle-img--small mr-2" alt="User Img">
+								<div class="user-info__basic">
+									<h5 class="mb-0">Hanoi</h5>
+									<p class="text-muted mb-0">@hanoi</p>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="d-flex align-items-baseline">
+								<h4 class="mr-1">8.8</h4><small small style="color: red"><i class="fa fa-arrow-down"></i> 0.1</small>
+							</div>
+						</td>
+						<td>Vietnam</td>
+						<td>info@vietnamtourism.org.vn</td>
+						<td>
+							<button class="btn btn-success btn-sm">Congratulate</button>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="d-flex align-items-center">
+								<img src="../static/images/berlin.jpg" class="circle-img circle-img--small mr-2" alt="User Img">
+								<div class="user-info__basic">
+									<h5 class="mb-0">Berlin</h5>
+									<p class="text-muted mb-0">@berlin</p>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="d-flex align-items-baseline">
+								<h4 class="mr-1">8.6</h4><small style="color: red"><i class="fa fa-arrow-down"></i> 0.2</small>
+							</div>
+						</td>
+						<td>Germany</td>
+						<td>info@germany.travel</td>
+						<td>
+							<button class="btn btn-success btn-sm">Congratulate</button>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="d-flex align-items-center">
+								<img src="../static/images/lagos.jpg" class="circle-img circle-img--small mr-2" alt="User Img">
+								<div class="user-info__basic">
+									<h5 class="mb-0">Lagos</h5>
+									<p class="text-muted mb-0">@lagos-nigeria</p>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="d-flex align-items-baseline">
+								<h4 class="mr-1">8.3</h4><small class="text-success"><i class="fa fa-arrow-up"></i> 0.2</small>
+							</div>
+						</td>
+						<td>Nigeria</td>
+						<td>info@nigeria.ng</td>
+						<td>
+							<button class="btn btn-success btn-sm">Congratulate</button>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="d-flex align-items-center">
+								<img src="img/user5.jpg" class="circle-img circle-img--small mr-2" alt="User Img">
+								<div class="user-info__basic">
+									<h5 class="mb-0">Cairo</h5>
+									<p class="text-muted mb-0">@cairo</p>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="d-flex align-items-baseline">
+								<h4 class="mr-1">8.0</h4><small class="text-success"><i class="fa fa-arrow-up"></i> 0.4</small>
+							</div>
+						</td>
+						<td>Egypt</td>
+						<td>info@tourism.eg</td>
+						<td>
+							<button class="btn btn-success btn-sm">Congratulate</button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
